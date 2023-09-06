@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+
     <!-- Enlaces de Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     
     <!-- Enlace de Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
-    <title>Windsor Institute/title>
+    <title>Windsor Institute</title>
 </head>
 <body>
-    <!-- Barra de navegación personalizada -->
-    <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
+
+    <!-- Barra de navegación Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <!-- Logotipo (opcional) -->
-            <a class="navbar-brand" href="#">
-                <img src="img/LOGO.png" alt="Logo de Windsor Institute" class="mr-2"> Windsor Institute
-            </a>
+            <a class="navbar-brand" href="#">Windsor Institute</a>
             <!-- Botón para dispositivos móviles (opcional) -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- Enlaces -->
+
+            <!-- Enlaces de navegación -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -33,28 +34,38 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Nosotros</a>
                     </li>
-                    <!-- enlace para "Clases Virtuales" -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Clases Virtuales</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                    <!-- enlace para "Horarios" -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Horarios</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero principal con título, usando Bootstrap y un lorem para relleno -->
-    <div class="hero text-left">
-        <h1 class="display-4 font-weight-bold">TITULO</h1>
-        <p class="lead">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi cupiditate nesciunt voluptas nemo. Voluptatum minima fugiat officiis nostrum? Adipisci iusto, quae omnis reprehenderit iure qui velit porro odio amet dolore possimus id maiores quis quos facilis nam, dolorem autem dignissimos eos explicabo ullam aut molestias. Veniam distinctio tenetur maiores totam eius dolor atque exercitationem natus voluptates quasi vitae doloremque rem iste nisi molestiae dolorem nostrum quae blanditiis, perspiciatis delectus dolorum sint. Fugiat repudiandae iusto esse vel error eveniet similique dolores beatae odio velit ex commodi, illo aliquid minus, maxime quae. Molestiae autem deleniti expedita, quis magnam cumque nostrum maxime corporis non quod ratione nemo sit, omnis laudantium tempore dignissimos!
-        </p>
+    <!-- Hero principal con título y texto grande utilizando Bootstrap -->
+    <div class="hero text-left" style="max-height: 100vh; overflow-y: auto;">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Columna para el logo en móviles -->
+                <div class="col-12 col-md-6 center-logo d-md-none">
+                    <img src="img/LOGO.png" alt="Logo de Windsor Institute" class="logo" style="max-width: 100%; height: auto;">
+                </div>
+
+                <!-- Columna para el logo en escritorio -->
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="img/LOGO.png" alt="Logo de Windsor Institute" class="logo" style="max-width: 960px; max-height: 600px;">
+                </div>
+
+                <!-- Columna para el texto -->
+                <div class="col-12 col-md-6">
+                    <h1 class="display-4 font-weight-bold">TITULO</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida libero ac ex sollicitudin, non tristique justo.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
     </div>
+ 
 </body>
 </html>
