@@ -1,0 +1,95 @@
+/* estilo para la barra de navegación */
+.navbar-custom {
+    position: fixed;
+    top: 0;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 64px;
+    font-size: 1.2em;
+    z-index: 2;
+    background-color: #aacedc; /* color de fondo */
+    border-bottom: 10px solid #d92622; /* grosor y color del borde inferior (rojo) */
+    font-family: 'DIN Condensed', sans-serif; /* fuente DIN Condensed */
+}
+
+/* estilo para el logo en la barra nav */
+.navbar-custom .navbar-brand {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    letter-spacing: 0.5px;
+}
+
+.navbar-custom .navbar-brand img {
+    width: 40px;
+    margin-right: 8px;
+}
+
+/* estilo para los enlaces en la barra de nav */
+.navbar-custom .navbar-nav .nav-item {
+    list-style: none;
+    display: inline-block;
+    margin-left: 44px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.navbar-custom .navbar-nav .nav-item.active,
+.navbar-custom .navbar-nav .nav-item:hover {
+    color: #ff0073;
+}
+
+/* estilo para el hero */
+.hero {
+    background-color: #e7e6e6; /* fondo gris claro */
+    color: #343434; /* color del texto */
+    text-align: center;
+    height: 100vh;
+    padding: 50px;
+    font-family: 'DIN Condensed', sans-serif; /* fuente DIN Condensed */
+}
+
+/* estilo para el título en el hero principal */
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: black; 
+    color: #4d8eb2;
+}
+
+/* estilo para el texto grande en el hero principal */
+.hero p {
+    font-size: 24px;
+    font-weight: light; /* texto en grosor ligero */
+}
+
+/* estilo para el último elemento de la barra de navegación personalizada (eliminar el margen derecho) */
+.navbar-custom .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+/* estilo para el hero principal para dispositivos moviles */
+@media (max-width: 767px) {
+    .hero {
+        padding: 20px; 
+        height: 100vh; 
+        display: flex; 
+        flex-direction: column;
+        justify-content: center; 
+    }
+
+
+    .hero h1 {
+        font-size: 28px; 
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 18px; 
+    }
+}
