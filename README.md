@@ -2,7 +2,7 @@
 
 ## Objetivos
 
-- Desarrollar una landing page atractiva para promocionar el Instituto de Inglés en Moreno, Provincia de Buenos Aires, utilizando Agile Scrum
+- Desarrollar una landing page para un Instituto de Inglés en Moreno (Buenos Aires), utilizando Agile Scrum
 - Asegurar una experiencia de usuario responsive en diversos dispositivos
 
 ## Herramientas y Tecnologías
