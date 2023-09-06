@@ -1,6 +1,4 @@
-# Landing page Pasantía Profesional UTN 2023 :rocket:
-
-Este repositorio es parte de una pasantía universitaria de la Tecnicatura Universitaria en Programación de la UTN FRSR
+## Landing page Pasantía Profesional UTN 2023 :rocket:
 
 ## Objetivos
 
@@ -9,7 +7,6 @@ Este repositorio es parte de una pasantía universitaria de la Tecnicatura Unive
 
 ## Herramientas y Tecnologías
 
-- HTML5, CSS3 y JavaScript para la construcción del sitio web
-- Posible uso de frameworks o librerías web según las necesidades (Bootstrap)
+- HTML5, CSS3, JavaScript y Bootstrap para la construcción del sitio web
 - Diseño responsivo para adaptarse a diferentes pantallas
-- Aplicación de Agile Scrum para la gestión y desarrollo del proyecto
+- Aplicación de Scrum para la gestión y desarrollo del proyecto
