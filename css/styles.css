@@ -1,0 +1,22 @@
+.logo {
+  width: 50%; /* Reduzca la imagen al 50% de su tamaño original */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+.hero {
+  padding: 80px 0; /* Agrega espacio en la parte superior e inferior del hero */
+  background-color: #f8f9fa; /* Cambia el color de fondo del hero */
+}
+.hero .col-md-6:last-child {
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+.hero h1 {
+  font-size: 2.5rem; /* Ajusta el tamaño del título */
+  color: #333; /* Cambia el color del texto del título */
+}
+.hero p {
+  font-size: 1.25rem; /* Ajusta el tamaño del texto */
+  color: #555; /* Cambia el color del texto */
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: red; /* Cambia el color del texto al hacer hover a rojo */
+}
