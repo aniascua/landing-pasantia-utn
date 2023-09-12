@@ -1,22 +1,25 @@
+
 .logo {
-    width: 50%; /* Reduzca la imagen al 50% de su tamaño original */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 50%; 
+    height: auto; 
 }
-.hero {
-    padding: 80px 0; /* Agrega espacio en la parte superior e inferior del hero */
-    background-color: #f8f9fa; /* Cambia el color de fondo del hero */
-}
-.hero .col-md-6:last-child {
-    text-align: left; /* Alinea el texto a la izquierda */
-}
-.hero h1 {
-    font-size: 2.5rem; /* Ajusta el tamaño del título */
-    color: #333; /* Cambia el color del texto del título */
-}
-.hero p {
-    font-size: 1.25rem; /* Ajusta el tamaño del texto */
-    color: #555; /* Cambia el color del texto */
-}
+
+
+/* nav bar */ 
 .navbar-nav .nav-item .nav-link:hover {
-    color: red; /* Cambia el color del texto al hacer hover a rojo */
+    color: #ff6347ed;
+}
+
+/* footer */
+footer {
+    padding: 20px 0;
+    background-color: #E7E6E6; 
+
+footer a.text-black.fs-4 i {
+    transition: color 0.3s ease; 
+    color: #000; 
+}
+
+footer a.text-black.fs-4:hover i {
+    color: #ff6347; 
 }
