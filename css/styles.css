@@ -23,3 +23,27 @@ footer a.text-black.fs-4 i {
 footer a.text-black.fs-4:hover i {
     color: #ff6347; 
 }
+
+.kidd {
+    width: 200px;
+    height: 200px;
+    background: url(/img/niños.jpg);
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 30px 30px 30px 0;
+
+}
+p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+}
+h3{
+
+}
+
+
+
+
