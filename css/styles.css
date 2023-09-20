@@ -1,27 +1,24 @@
-
 .logo {
-    width: 50%; 
-    height: auto; 
+    width: 50%;
+    height: auto;
 }
 
-
-/* nav bar */ 
 .navbar-nav .nav-item .nav-link:hover {
     color: #ff6347ed;
 }
 
-/* footer */
 footer {
     padding: 20px 0;
-    background-color: #E7E6E6; 
+    background-color: #E7E6E6;
+}
 
 footer a.text-black.fs-4 i {
-    transition: color 0.3s ease; 
-    color: #000; 
+    transition: color 0.3s ease;
+    color: #000;
 }
 
 footer a.text-black.fs-4:hover i {
-    color: #ff6347; 
+    color: #ff6347;
 }
 
 .kidd {
@@ -34,10 +31,12 @@ footer a.text-black.fs-4:hover i {
     margin: 30px 30px 30px 0;
 
 }
-p{
+
+p {
     margin: 0;
     padding: 0;
     text-align: justify;
     line-height: 22px;
 }
+
 
