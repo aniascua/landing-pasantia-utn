@@ -14,10 +14,9 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container"> <!-- Wrap everything in a container -->
-      <div class="navbar-brand d-lg-inline-block align-items-center"> <!-- Alinear logo y título en escritorio -->
+    <div class="container">
+      <div class="navbar-brand d-lg-inline-block align-items-center">
         <img src="/img/LOGO WINDSOR.png" width="100" height="125" class="d-inline-block align-top" alt="Logo">
         <img src="/img/WE BUILD SLOGAN.png" width="140" height="80"
           class="d-inline-block align-top slogan-logo mobile-margin-right" alt="Slogan Logo"
@@ -25,19 +24,17 @@
       </div>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="nosotros.html">Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="contacto.html">Contacto</a>
         </li>
       </ul>
     </div>
   </nav>
-
-  <!-- pagina principal HERO -->
   <div class="hero text-center"
     style="background-image: url('/img/banner\ estudiantes.jpg'); background-size: cover; background-position: calc(100% - 38%) center; height: 80vh; margin: 0; padding: 0; position: relative;">
     <div class="overlay"></div>
@@ -46,19 +43,22 @@
         <div class="col-md-12">
           <style>
             .hero h1 {
-              font-family: 'DIN Condensed', sans-serif;
               font-weight: 700;
               color: #fff;
-              font-size: 3rem;
-              text-align: left;
+              font-size: 4.5rem;
+              text-align: right;
+              margin-top: 22%;
+              transform: translateY(-50%);
+              text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8);
             }
 
             .hero p {
-              font-family: 'DIN Condensed', sans-serif;
               font-weight: 500;
               color: #fff;
-              font-size: 1.5rem;
-              text-align: left;
+              font-size: 2.5rem;
+              text-align: right;
+              margin-top: -2%;
+              text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8);
             }
 
             @media (max-width: 768px) {
@@ -74,50 +74,54 @@
               .hero p {
                 font-size: 1rem;
               }
+
+              #titulo {
+                margin-top: 250px;
+                text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8);
+                font-size: 2.5rem;
+                text-align: right;
+                margin-top: 92%;
+                transform: translateY(-50%);
+              }
+
+              #desc {
+                margin-top: -22px;
+                text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8);
+                font-size: 2rem;
+              }
+
             }
           </style>
-
-          <h1 class="display-4 text-white">Título</h1>
-          <p class="lead text-white">Texto descriptivo.</p>
+          <h1 class="display-4 text-white" id="titulo">Instituto de Inglés</h1>
+          <p class="lead text-white" id="desc">Todos los niveles</p>
         </div>
       </div>
     </div>
   </div>
-
-
-
-  <!-- footer con redes logo y mapa -->
   <footer class="bg-gray text-black text-center">
     <div class="container">
       <div class="mt-4">
-        <a href="#" class="text-black me-4 fs-4">
+        <a href="https://www.facebook.com" class="text-black me-4 fs-4">
           <i class="fab fa-facebook-f"></i>
         </a>
         <a href="https://wa.me/1234567890" class="text-black me-4 fs-4">
           <i class="fab fa-whatsapp"></i>
         </a>
-        <a href="#" class="text-black fs-4">
+        <a href="https://www.instagram.com" class="text-black fs-4">
           <i class="fab fa-instagram"></i>
         </a>
       </div>
-
-      <!-- slogan -->
       <img src="/img/WE BUILD SLOGAN.png" alt="Slogan de We Build" class="img-fluid mt-4 mb-4"
         style="max-width: 160px;">
-
       <p>Dirección: Dr. Gines de la Quintana 3721, B1742FUQ Paso del Rey, Provincia de Buenos Aires</p>
-
-      <!-- mapa -->
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.787332440744!2d-58.73217818494869!3d-34.64376008044995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3285a36c19187%3A0x6dd9aa14fcf086d7!2sDr.%20Gines%20de%20la%20Quintana%203721%2C%20B1742FUQ%20Paso%20del%20Rey%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1694150015693!5m2!1ses-419!2sar"
         width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
