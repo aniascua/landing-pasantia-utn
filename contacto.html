@@ -3,73 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">  
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .circle {
-            width: 150px;
-            height: 150px;
-            background-color: #007bff;
-            border-radius: 50%;
-            margin-right: 20px; /* Espacio entre la foto y el texto */
-            float: left; /* Colocar la foto a la izquierda */
-        }
-    </style>
     <title>Horarios de Actividad</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="navbar-brand d-lg-inline-block align-items-center">
-            <img src="/img/LOGO WINDSOR.png" width="100" height="125" class="d-inline-block align-top" alt="Logo">
-            <header class="bg-danger text-light text-center py-4">
-                <h1>Horarios de Actividad</h1>
-            </header>
-            <div class="container my-4">
-                <table class="table">
-                    <thead class="bg-danger text-light">
-                        <tr>
-                            <th>Día</th>
-                            <th>Hora</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Lunes</td>
-                            <td>10:00 AM - 12:00 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Miércoles</td>
-                            <td>9:30 AM - 11:30 AM</td>
-                        </tr>
-                        <tr>
-                            <td>Viernes</td>
-                            <td>3:00 PM - 5:00 PM</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="info">
-                    <h2>Niveles</h2>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="container">
-                                <div class="circle"><img src="/img/niños.jpg"  alt="niños" width="385px"></div>
-                                <h3>Kidd</h3>
-                                <p title="Kidd">Desde los cuatro años, trabajamos en el desarrollo 
-                                de la oralidad, la parte auditiva y motriz para ir 
-                                incorporando de a poco y en forma natural la nueva lengua.
-                                Ofrecemos actividades lúdicas, juegos, canciones y 
-                                más para acompañar esta etapa.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <!-- Contenido adicional a la derecha, si es necesario -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/img/LOGO WINDSOR.png" width="100" height="125" class="d-inline-block align-top" alt="Logo">
+            </a>
+            <h1 class="text-light">Horarios de Actividad</h1>
+        </div>
+    </nav>
+    <div class="container my-4">
+        <table class="table table-striped table-bordered">
+            <thead class="bg-danger text-light">
+                <tr>
+                    <th>Día</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>10:00 AM - 12:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>9:30 AM - 11:30 AM</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>3:00 PM - 5:00 PM</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="info">
+            <h2 class="text-primary">Niveles</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="media">
+                        <img src="/img/niños.jpg" alt="niños" width="150" height="150" class="mr-3 rounded-circle">
+                        <div class="media-body">
+                            <h3 class="mt-0">Kidd</h3>
+                            <p title="Kidd">Desde los cuatro años, trabajamos en el desarrollo de la oralidad, la parte auditiva y motriz para ir incorporando de a poco y en forma natural la nueva lengua. Ofrecemos actividades lúdicas, juegos, canciones y más para acompañar esta etapa.</p>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <!-- Contenido adicional a la derecha, si es necesario -->
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
