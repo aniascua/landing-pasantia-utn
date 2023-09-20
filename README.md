@@ -16,7 +16,7 @@
 | ALUMNO ✏️                                      | TAREA REALIZADA 📝                              |
 |-----------------------------------------------|----------------------------------------------|
 | [Ana Ascua (GitHub)](https://github.com/aniascua) | Desarrollo de la estructura HTML, implementación de Bootstrap para estilos, creación del Hero principal, diseño responsive            |
-| [Nombre2 (GitHub)](https://github.com/alumno2) | Tarea             |
+| [Alejandro Algarin (GitHub)](https://github.com/ale4287) | Creacion de HTML y CSS de documento nostros.html y nostros.css             |
 | [Nombre3 (GitHub)](https://github.com/alumno3) | Tarea             |
 | [Nombre4 (GitHub)](https://github.com/alumno4) | Tarea             |
 | [Nombre5 (GitHub)](https://github.com/alumno5) | Tarea             |
