@@ -6,13 +6,12 @@ body {
   color: white; /* Cambia el color del texto para que sea legible en el fondo violeta */
 }
 
-h1{
-  color: #333;
-}
-
 p {
-  color: #333;
-  max-width: fit-content;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 2%;
+  text-align: center;
+  line-height: 22px;
 }
 
 /* Estilos para la galería de fotos */
@@ -21,7 +20,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  margin-top: 20px;
+  margin-top: 20px; 
 }
 
 .image {
