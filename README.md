@@ -17,7 +17,7 @@
 |-----------------------------------------------|----------------------------------------------|
 | [Ana Ascua (GitHub)](https://github.com/aniascua) | Desarrollo de la estructura HTML, implementación de Bootstrap para estilos, creación del Hero principal, diseño responsive            |
 | [Alejandro Algarin (GitHub)](https://github.com/ale4287) | Creacion de HTML y CSS de documento nostros.html y nosotros.css             |
-| [Nombre3 (GitHub)](https://github.com/piaolivera)) | Contacto con el instituto de inglés "Windsor Institute", buscar las imagenes, logo y paleta de colores. Creacion del documento contacto.html|
+| [Pia Olivera (GitHub)](https://github.com/piaolivera)) | Contacto con el instituto de inglés "Windsor Institute", buscar las imagenes, logo y paleta de colores. Creacion del documento contacto.html|
 
 
 ## Capturas de pantalla
