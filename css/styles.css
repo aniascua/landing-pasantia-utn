@@ -21,9 +21,9 @@ footer a.text-black.fs-4:hover i {
     color: #ff6347;
 }
 
-.kidd {
-    width: 200px;
-    height: 200px;
+.kid {
+    max-width: 100px; /* Tamaño máximo deseado */
+    height: auto;
     background: url(/img/niños.jpg);
     border-radius: 50%;
     float: left;
