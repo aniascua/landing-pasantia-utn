@@ -2,16 +2,52 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  /* Añade otros estilos según sea necesario */
-  color: white; /* Cambia el color del texto para que sea legible en el fondo violeta */
+  background-color: #f8f8f8;
+  /* Cambia el color de fondo de la página */
+  color: #333;
+  /* Cambia el color del texto para que sea legible en el fondo */
+  margin: 0;
+  /* Elimina el margen predeterminado del cuerpo */
+  padding: 0;
+  /* Elimina el espacio de relleno predeterminado del cuerpo */
 }
 
+/* Estilos para el encabezado */
+.navbar {
+  background-color: #fff;
+  /* Cambia el color de fondo de la barra de navegación */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Agrega una sombra suave a la barra de navegación */
+}
+
+/* Estilos para el texto del párrafo */
 p {
-  margin-left: 3%;
-  margin-right: 3%;
-  padding: 2%;
-  text-align: center;
-  line-height: 22px;
+  margin: 20px;
+  /* Márgenes alrededor del párrafo */
+  padding: 20px;
+  /* Espacio interno */
+  text-align: justify;
+  /* Justificar el texto */
+  line-height: 1.6;
+  /* Espaciado entre líneas */
+  font-size: 18px;
+  /* Tamaño del texto */
+}
+
+/* Estilo de énfasis utilizando clases de Bootstrap */
+.emphasis {
+  font-weight: bold;
+  /* Texto en negrita */
+  color: #ff6347;
+  /* Color de énfasis (rojo de Bootstrap) */
+  font-size: 20px;
+  /* Tamaño de fuente ligeramente más grande */
+}
+
+/* Estilo para fuentes personalizadas */
+.custom-font {
+  font-family: 'DIN Condensed', sans-serif;
+  /* Fuentes personalizadas */
 }
 
 /* Estilos para la galería de fotos */
@@ -20,7 +56,8 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  margin-top: 20px; 
+  margin: 20px auto;
+  /* Centra la galería en la página y agrega margen */
 }
 
 .image {
@@ -33,16 +70,4 @@ p {
 .image img {
   max-width: 100%;
   height: auto;
-}
-
-.caption {
-  margin-top: 10px;
-  color: #666;
-}
-
-
-
-
-.navbar-nav .nav-item .nav-link:hover {
-  color: #ff6347ed;
 }

@@ -9,7 +9,8 @@
 
 footer {
     padding: 20px 0;
-    background-color: #E7E6E6;
+    background-color: #fff;
+    /* Cambiado a blanco */
 }
 
 footer a.text-black.fs-4 i {
@@ -22,7 +23,8 @@ footer a.text-black.fs-4:hover i {
 }
 
 .kid {
-    max-width: 100px; /* Tamaño máximo deseado */
+    max-width: 100px;
+    /* Tamaño máximo deseado */
     height: auto;
     background: url(/img/niños.jpg);
     border-radius: 50%;

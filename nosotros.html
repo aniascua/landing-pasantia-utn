@@ -1,80 +1,160 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería de Fotos</title>
-    <link rel="stylesheet" href="/css/nosotros.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DIN+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
     <script defer src="/js/index.js"></script>
+    <style>
+        /* Estilos generales */
+
+
+        /* Estilos para el encabezado */
+        .navbar {
+            background-color: #fff;
+            /* Mantén el color de fondo original de la barra de navegación */
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #ff6347ed;
+        }
+
+        /* Estilos para el texto del párrafo */
+        p {
+            margin: 20px;
+            /* Márgenes alrededor del párrafo */
+            padding: 20px;
+            /* Espacio interno */
+            text-align: justify;
+            /* Justificar el texto */
+            line-height: 1.6;
+            /* Espaciado entre líneas */
+            font-size: 18px;
+            /* Tamaño del texto */
+        }
+
+        /* Estilo de énfasis utilizando clases de Bootstrap */
+        .emphasis {
+            font-weight: bold;
+            /* Texto en negrita */
+            color: #ff6347;
+            /* Color de énfasis (rojo de Bootstrap) */
+            font-size: 20px;
+            /* Tamaño de fuente ligeramente más grande */
+        }
+
+        /* Estilo para fuentes personalizadas */
+        .custom-font {
+            font-family: 'DIN Condensed', sans-serif;
+            /* Fuentes personalizadas */
+        }
+
+        /* Estilos para la galería de fotos */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px auto;
+            /* Centra la galería en la página y agrega margen */
+        }
+
+        .image {
+            width: 100%;
+            border: 1px solid #ddd;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-          <div class="navbar-brand d-lg-inline-block align-items-center">
-            <img src="/img/LOGO WINDSOR.png" width="100" height="125" class="d-inline-block align-top" alt="Logo">
-            <img src="/img/WE BUILD SLOGAN.png" width="140" height="80"
-              class="d-inline-block align-top slogan-logo mobile-margin-right" alt="Slogan Logo"
-              style="margin-top: 1.5rem;">
-          </div>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Días y Horarios</a>
-            </li>
-          </ul>
+            <div class="navbar-brand d-lg-inline-block align-items-center">
+                <img src="/img/LOGO WINDSOR.png" width="100" height="125" class="d-inline-block align-top" alt="Logo">
+                <img src="/img/WE BUILD SLOGAN.png" width="140" height="80"
+                    class="d-inline-block align-top slogan-logo mobile-margin-right" alt="Slogan Logo"
+                    style="margin-top: 1.5rem;">
+            </div>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Días y Horarios</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
     <p>
-        Bienvenidos a Windsor Institute, donde el inglés es solo el comienzo. Fundado en 2003 por Romina Quintero, representamos dos décadas de dedicación y pasión por la enseñanza del inglés. Nuestra comunidad, "LA COMUNIDAD WINDSOR", es una familia en constante crecimiento compuesta por familias, estudiantes y docentes que confían en nosotros año tras año. Nuestro equipo de docentes altamente capacitados se enfoca en brindar una experiencia educativa de calidad. Únanse a nuestra comunidad que valora el aprendizaje continuo. Esperamos ser parte de su éxito
+        Bienvenidos a Windsor Institute, donde el inglés es solo el <span class="emphasis">comienzo</span>. Fundado en
+        2003 por <span class="custom-font">Romina Quintero</span>, representamos dos décadas de dedicación y pasión por
+        la enseñanza del inglés. Nuestra comunidad, "LA COMUNIDAD WINDSOR", es una familia en constante crecimiento
+        compuesta por familias, estudiantes y docentes que confían en nosotros año tras año. Nuestro equipo de docentes
+        altamente capacitados se enfoca en brindar una experiencia educativa de calidad. Únanse a nuestra comunidad que
+        valora el aprendizaje continuo. Esperamos ser parte de su <span class="emphasis">éxito</span>.
     </p>
-        
-    <div class="gallery">
-        <div class="image">
-            <img src="/img/20años.jpg" alt="Foto 1">
-            <div class="caption">Descripción de la Foto 1</div>
-        </div>
-        <div class="image">
-            <img src="img/LOGO WINDSOR.png" alt="Foto 2">
-            <div class="caption">Descripción de la Foto 2</div>
-        </div>
-        <div class="image">
-            <img src="/img/family.jpg" alt="Foto 3">
-            <div class="caption">Descripción de la Foto 3</div>
-        </div>
-        <div class="image">
-            <img src="/img/hello.jpg" alt="Foto 4">
-            <div class="caption">Descripción de la Foto 4</div>
-        </div>
-        <div class="image">
-            <img src="/img/IMG_20230131_121824772_MF_PORTRAIT.jpg" alt="Foto 5">
-            <div class="caption">Descripción de la Foto 5</div>
-        </div>
-        <div class="image">
-            <img src="/img/IMG_20230131_125823265.jpg" alt="Foto 6">
-            <div class="caption">Descripción de la Foto 6</div>
-        </div>
-        <div class="image">
-            <img src="/img/IMG_0826.jpg" alt="Foto 7">
-            <div class="caption">Descripción de la Foto 7</div>
-        </div>
-        <div class="image">
-            <img src="/img/IMG_20230217_160948477_BURST000_COVER.jpg" alt="Foto 8">
-            <div class="caption">Descripción de la Foto 8</div>
-        </div>
-        <div class="image">
-            <img src="/img/IMG_20230131_134706269_HDR.jpg" alt="Foto 9">
-            <div class="caption">Descripción de la Foto 9</div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="image">
+                    <img src="/img/20años.jpg" alt="Foto 1">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image">
+                    <img src="img/LOGO WINDSOR.png" alt="Foto 2">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image">
+                    <img src="/img/family.jpg" alt="Foto 3">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image">
+                    <img src="/img/hello.jpg" alt="Foto 4">
+                </div>
+            </div>
         </div>
     </div>
+
+
+    <footer class="bg-gray text-black text-center">
+        <div class="container">
+            <div class="mt-4">
+                <a href="https://wa.me/5491165370303" class="text-black me-4 fs-4">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/ingleswindsor/" class="text-black fs-4">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <img src="/img/WE BUILD SLOGAN.png" alt="Slogan de We Build" class="img-fluid mt-4 mb-4"
+                style="max-width: 160px;">
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.5.0/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
