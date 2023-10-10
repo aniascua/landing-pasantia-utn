@@ -1,6 +1,6 @@
 ## Landing page Pasantía Profesional UTN 2023 :rocket:
 
-### https://www.windsor-institute.000webhostapp.com
+### windsor-institute.000webhostapp.com
 
 ### Objetivos
 
